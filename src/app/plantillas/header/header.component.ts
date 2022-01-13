@@ -12,10 +12,10 @@ export class HeaderComponent implements OnInit {
 
   //fillerNav = Array.from({length: 50}, (_, i) => `Nav Item ${i + 1}`);
   fillerNav=[
-    {name:"Login",route:"",icon:"home"},
-    {name:"Editar",route:"../editar",icon:"edit"},
-    {name:"Nuevo",route:"../nuevo",icon:"add"},
-    {name:"Dashboard",route:"../dashboard",icon:"dashboard"},
+    {name:"Login",route:"login",icon:"home"},
+    {name:"Editar",route:"editar",icon:"edit"},
+    {name:"Nuevo",route:"nuevo",icon:"add"},
+    {name:"Dashboard",route:"dashboard",icon:"dashboard"},
   ];
 
 
